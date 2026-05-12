@@ -173,13 +173,6 @@ The notebook imports and uses:
 | `IPython.display` | Notebook table display |
 | `scikit-learn` | `StandardScaler` and `PCA` |
 
-## Resume Bullet Points
-
-- Built a PCA-based batch monitoring workflow using 1,328 reference observations from 16 historical baker's yeast batches with `pandas` and `scikit-learn`, enabling multivariate process behavior to be summarized for statistical process control.
-- Standardized 8 process variables and fit a 5-component PCA model that captured 97.625353% cumulative variance using `StandardScaler` and `PCA`, supporting dimensionality reduction for batch trajectory monitoring.
-- Visualized PC1-PC2 score trajectories where the first two components captured 78.467377% of variance using `matplotlib`, making batch-to-batch process behavior easier to interpret.
-- Projected 166 current-batch observations from 2 running batches into the trained reference PCA space using `scaler.transform()` and `pca.transform()`, preserving a valid comparison against historical reference operation.
-- Identified batch `Ya` as showing stronger deviation from the reference trajectory region while batch `Za` appeared more consistent, supporting targeted process review using PCA-based monitoring.
 
 ## Key Lessons / Takeaways
 
